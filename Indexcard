@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, People!</title>
+</head>
+<body>
+  <h1>
+    Hello, People!
+  </h1>
+</body>
+</html>
+<style>
+  body {
+    background-color: lightblue;
+    font-family: Arial;
+  }
+  h1 {
+    color: darkblue;
+  }
+</style>
+<script>
+  function sayHello() {
+    alert("Hello there!");
+  }
+</script>
+
+<button onclick="sayHello()">Click Me</button>
